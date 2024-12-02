@@ -99,36 +99,36 @@ daikin_rotex_uart:
   #outdoor_unit: ERGA08DAV3
   entities:
     t_liq:
-      name: Fluid Line Temperature (R6T)
+      name: Temperatura linea fluido (R6T)
     exv:
-      name: Expansion Valve
+      name: Valvola di espansione
     exch_temp:
-      name: Finned Heat Exchanger Temperature (R5T)
+      name: Temperatura evaporatore (R5T)
     fan_speed:
-      name: Fan Speed
+      name: Velocità ventola
     temp_after_compr:
-      name: After Refrigerant Compressor Temperature (R2T)
+      name: Temperatura refrigerante (R2T)
     inv_freq:
-      name: Compressor Speed
+      name: Velocità compressore
     inv_prim_current:
-      name: INV Primary Current
+      name: INV Corrente primaria
     inv_sec_current:
-      name: INV Secondary Current
+      name: INV Corrente Secondaria
     dhw_temp:
-      name: DHW Tank Temperature
+      name: DHW Temperatura serbatoio
     tv:
-      name: Flow Temperature (TV)
+      name: Temperatura flusso (TV)
     tv_bh:
-      name: Flow Temperature (TVBH)
+      name: Temperatura flusso (TVBH)
     tr:
-      name: Return Temperature
+      name: Temperatura ritorno
     outdoor_temp:
-      name: Outdoor Air Temperature
+      name: Temperatura esterna
     buh1:
-      name: Heating Element Level 1
+      name: Elemento riscaldante livello 1
     buh2:
-      name: Heating Element Level 1
+      name: Elemento riscaldante livello 2
     buh_bsh:
       name: Heating Element Storage
     press_eq:
-      name: Pressure Equalization
+      name: Equalizzazione pressione
