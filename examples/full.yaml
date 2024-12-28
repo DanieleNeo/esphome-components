@@ -35,6 +35,7 @@ web_server:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
+  power_save_mode: none
 
   ap:
     ssid: DaikinRotex Fallback Hotspot
@@ -97,9 +98,16 @@ daikin_rotex_uart:
   #outdoor_unit: RRLQ011CAW1
   #outdoor_unit: ERLQ016CAW1
   #outdoor_unit: ERGA08DAV3
+  #outdoor_unit: RRGA08DAV3
   entities:
+    mode_of_operating:
+      name: Betriebsart
     t_liq:
       name: Fluid Line Temperature (R6T)
+    liq_pressure:
+      name: Refrigerant Pressure
+    t_liq2:
+      name: Refrigerant Temperature
     exv:
       name: Expansion Valve
     exch_temp:
@@ -124,6 +132,8 @@ daikin_rotex_uart:
       name: Return Temperature
     outdoor_temp:
       name: Outdoor Air Temperature
+    tgt_cond_temp:
+      name: Target Liquefaction Temperature
     buh1:
       name: Heating Element Level 1
     buh2:
@@ -132,3 +142,7 @@ daikin_rotex_uart:
       name: Heating Element Storage
     press_eq:
       name: Pressure Equalization
+    4_way_valve:
+      name: 4-Way-Valve
+    defrost_operation:
+      name: Defrost Operation
